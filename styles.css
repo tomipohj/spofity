@@ -1,0 +1,57 @@
+html, body {
+    height: 100%;
+}
+
+.container1 {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color: blue;
+}
+
+.menubar > .col {
+    height: 80px;
+    text-align: center;
+    color: white;
+}
+
+.home, .browse, .playlist, .bio {
+    display: none;
+}
+
+.albumcover {
+    width: 100%;
+}
+
+.player > .col {
+    text-align: center;
+    color: white; !important
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media only screen and (min-width: 575px) {
+    .container1 {
+        background-color: black;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media only screen and (min-width: 767px) {
+    .container1 {
+        background-color: red;
+    }
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media only screen and (min-width: 991px) {
+    .container1 {
+        background-color: yellow;
+    }
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media only screen and (min-width: 1199px) {
+    .container1 {
+        background-color: green;
+    }
+}
